@@ -29,7 +29,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 * `~/.config/nvim/init.vim` 에 [init.vim](./init.vim)내용 붙여넣기
 
-## Coc plugin 을 위한 node.js 설치
+## node.js 설치
+
+CoC 플러그인 설치시 node.js LTS 버전이 필요하다. 설치해주자.
 
 ```sh
 # node.js 필요
@@ -41,6 +43,10 @@ $ curl -sL install-node.now.sh/lts | sudo $SHELL
 `vim-devicons` 플러그인을 위해 다음 폰트가 필요하다.
 
 https://www.nerdfonts.com/font-downloads 에서 폰트 파일 다운로드 받고 각자 사용하는 shell 에 적용
+shell 마다 폰트 적용 방법이 조금씩 다름 
+
+* iterm2: https://falaner.tistory.com/82
+* powershell: https://nahwasa.com/entry/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%84%B8%ED%8C%85-WSL-%EC%84%9C%EB%B8%8C-%EB%A6%AC%EB%88%85%EC%8A%A4-IntelliJ-vscode-git-%EB%93%B1#Meslo_Nerd_%ED%8F%B0%ED%8A%B8_%EC%84%A4%EC%B9%98
 
 ## plugin 설치
 
